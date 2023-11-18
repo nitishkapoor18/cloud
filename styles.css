@@ -1,0 +1,252 @@
+/* Reset default margin and padding */
+body,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set body background color and font */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff3da;
+}
+
+/* Style the container for the content */
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #dfccfb;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style headings */
+h1,
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Style form elements */
+form {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+#email{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+/* Style buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Style links */
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* Style error messages */
+.error {
+  color: #ff0000;
+  margin-bottom: 10px;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #444;
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Responsive design */
+@media screen and (max-width: 600px) {
+  .navbar a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/* Style the welcome section */
+.welcome-section {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.welcome-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.welcome-content h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+.welcome-content p {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+/* Style the features section */
+.features-section {
+  background-color: #f5f5f5;
+  padding: 50px 0;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.features-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.feature {
+  flex: 0 0 calc(30% - 40px);
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+}
+
+.feature h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.feature p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Style the call-to-action section */
+.call-to-action {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.call-to-action h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.call-to-action p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* Add your own custom styles as needed */
+
+/* Apply the provided color palette */
+body {
+  background-color: #fff3da;
+}
+
+.container {
+  background-color: #dfccfb;
+}
+
+.btn {
+  background-color: #007bff;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.navbar {
+  background-color: #333;
+}
+
+.navbar a:hover {
+  background-color: #444;
+}
+
+.welcome-section {
+  background-color: #222;
+}
+
+.features-section {
+  background-color: #f5f5f5;
+}
+
+.features-section h2 {
+  color: #333;
+}
+
+.call-to-action {
+  background-color: #007bff;
+}
+
+/* ... (any other additional styles) ... */

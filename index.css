@@ -1,0 +1,183 @@
+/* Reset default margin and padding */
+body,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set body background color and font */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #fff3da;
+  color: #333;
+}
+
+/* Style the navbar */
+.navbar {
+  background-color: #dfccfb;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar a.active {
+  background-color: #d0bfff;
+  color: #fff;
+}
+
+.navbar a:hover {
+  background-color: #d0bfff;
+  color: #fff;
+}
+
+/* Rest of your styles */
+
+/* Style the welcome section */
+.welcome-section {
+  background-color: #d0bfff;
+  color: #333;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.welcome-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.welcome-content h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+.welcome-content p {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+/* Style the features section */
+.features-section {
+  background-color: #beadfa;
+  padding: 50px 0;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.features-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.feature {
+  flex: 0 0 calc(30% - 40px);
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+}
+
+.feature h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.feature p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Style the call-to-action section */
+.call-to-action {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.call-to-action h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.call-to-action p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* Style buttons */
+.btn {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+/* Add your own custom styles as needed */
+/* ... previous CSS content ... */
+
+/* Style the call-to-action section */
+.call-to-action {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #d0bfff;
+  color: #fff;
+}
+
+.call-to-action h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.call-to-action p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.call-to-action .btn {
+  background-color: #beadfa;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: background-color 0.3s;
+}
+
+.call-to-action .btn:hover {
+  background-color: #d0bfff;
+}
+
+/* ... rest of the CSS content ... */

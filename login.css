@@ -1,0 +1,112 @@
+/* Reset default margin and padding */
+body,
+h1,
+p,
+form {
+  margin: 0;
+  padding: 0;
+}
+body,
+p,
+label {
+  font-family: "Arial", sans-serif;
+}
+
+/* Set body background color and font */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff3da;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* Style the container for the content */
+.container {
+  width: 100%;
+  max-width: 400px;
+  padding: 30px;
+  background-color: #d0bfff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Style headings */
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Style form elements */
+form {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #beadfa;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #dfccfb;
+}
+
+/* Style links */
+a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #555;
+}
+
+/* Style error messages */
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
+/* ... (previous styles) ... */
+
+.btn-register {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #beadfa;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.btn-register:hover {
+  background-color: #dfccfb;
+}
