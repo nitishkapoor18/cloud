@@ -7,12 +7,12 @@ if (!isset($_SESSION['user_id'])) {
 }
 require_once 'config.php';
 
-if (isset($_GET['token'])) {
-    $token = $_GET['token'];
+if (isset($_GET['file_id'])) {
+    $fileId = $_GET['file_id'];
 
     // Fetch file record using the sharing link token
-    $stmt = $pdo->prepare("SELECT filepath, filename FROM files WHERE sharing_link = ?");
-    $stmt->execute([$token]);
+    $stmt = $pdo->prepare("SELECT filepath, filename FROM files WHERE id = ?");
+    $stmt->execute([$fileId]);
     $file = $stmt->fetch();
 
     if ($file) {
